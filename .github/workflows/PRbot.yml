@@ -16,4 +16,5 @@ jobs:
          echo "----------Authenticating Snyk-----------"
          ./snyk auth ${{secrets.Snyk_token}}
          echo "----------Snyk Scanning-----------"
+         npm install
          ./snyk test --all-projects -d --skip-unresolved
