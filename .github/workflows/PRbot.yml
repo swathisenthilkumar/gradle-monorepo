@@ -17,4 +17,3 @@ jobs:
          ./snyk auth ${{secrets.Snyk_token}}
          echo "----------Snyk Scanning-----------"
          ./snyk test --all-projects -d --skip-unresolved
-         ./snyk test --file=build.gradle --all-sub-projects -d
