@@ -21,5 +21,6 @@ dependencies {
     // otherwise the dependent project will be built and that version will
     // be used.
     implementation 'example.gcb.gregwhitaker:project-b'
-    implementation 'org.springframework.boot:spring-boot-autoconfigure@2.5.0'
+    implementation 'org.springframework.boot:spring-boot-autoconfigure@2.6.5'
+    compile 'org.springframework.boot:spring-boot-autoconfigure@2.6.5'
 }
