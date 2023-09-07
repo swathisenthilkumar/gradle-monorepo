@@ -23,4 +23,5 @@ dependencies {
     implementation 'example.gcb.gregwhitaker:project-b'
     implementation 'org.springframework.boot:spring-boot-autoconfigure@2.6.5'
     compile 'org.springframework.boot:spring-boot-autoconfigure@2.6.5'
+    implementation 'com.google.cloud.tools:jib-core@0.1.0'
 }
