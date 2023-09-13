@@ -6,6 +6,6 @@
 version: 2
 updates:
   - package-ecosystem: "gradle" # See documentation for possible values
-    directory: "/project-b/" # Location of package manifests
+    directory: "/project-c/" # Location of package manifests
     schedule:
       interval: "daily"
