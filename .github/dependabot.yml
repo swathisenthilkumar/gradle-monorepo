@@ -10,6 +10,6 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "gradle" # See documentation for possible values
-    directory: "/" # Location of package manifests
+    directory: "/project-b/" # Location of package manifests
     schedule:
       interval: "daily"
